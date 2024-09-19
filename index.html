@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elegant Photography Website">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mason Trap Photography</title>
+</head>
+<body>
+
+<!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo1.png" alt="logo" width="200">
+        </div>
+
+<!-- Navigation -->
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Us</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Capturing Moments in Style</h1>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="images/gallery1.jpg" alt="Gallery Image 1">
+            <img src="images/gallery2.jpg" alt="Gallery Image 2">
+            <img src="images/gallery3.jpg" alt="Gallery Image 3">
+            <img src="images/gallery4.jpg" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about">
+            <p>We are a photography studio specializing in capturing timeless moments. Our passion is to create art through the lens, ensuring that your memories are preserved in the most elegant way possible. With years of experience in event photography, portraits, and more, we are dedicated to delivering top-notch quality in every shoot.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Our Blog</h2>
+        <div class="blog">
+            <p>Check out our blog for the latest stories, tips, and insights from the world of photography. We share behind-the-scenes looks at our work, tips on posing, lighting, and much more!</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+            <p>Want to book a photoshoot or inquire about our services? Contact us below:</p>
+        <form action="/submit-booking" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br><br>
+            <input type="email" name="email" placeholder="Your Email" required><br><br>
+            <textarea name="message" placeholder="Your Message or Inquiry" rows="5" required></textarea><br><br>
+            <button type="submit" class="booking-button">Book a Photoshoot</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Photography Studio. All rights reserved.</p>
+        <a href="mailto:info@yourphotography.com">info@yourphotography.com</a>
+    </footer>
+
+</body>
+</html>
